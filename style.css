@@ -21,4 +21,27 @@ body {
     padding: 30px 40px;
     background: transparent;
     backdrop-filter: blur(9px);
+    border-radius: 12px;
+    color: white;
+}
+
+.calculadora {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.display {
+    margin-bottom: 20px;
+}
+
+#display-calculadora {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgba(255, 255, 255, .2);
 }
