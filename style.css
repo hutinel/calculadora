@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: darkmagenta;
+    background: linear-gradient(145deg, darkmagenta, blue) ;
 }
 
 .wrapper {
@@ -44,4 +44,25 @@ body {
     border-radius: 5px;
     color: white;
     background: rgba(255, 255, 255, .2);
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, .4);
 }
